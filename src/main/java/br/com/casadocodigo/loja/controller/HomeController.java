@@ -41,7 +41,7 @@ public class HomeController {
 	@ResponseBody
 	public String urlMagicaMaluca() {
 		Authority role = new Authority();
-		role.setAuthority("ADMIN");
+		role.setAuthority("ROLE_ADMIN");
 		
 		ArrayList<Authority> arrayRoles = new ArrayList<Authority>();
 		arrayRoles.add(role);
