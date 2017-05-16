@@ -47,7 +47,7 @@ public class HomeController {
 		arrayRoles.add(role);
 		
 		Usuario admin = new Usuario();
-		admin.setUsername("admin@casadocodigo.com.br");
+		admin.setUsername("master@casadocodigo.com.br");
 		admin.setPassword("$2a$10$lt7pS7Kxxe5JfP.vjLNSyOXP11eHgh7RoPxo5fvvbMCZkCUss2DGu");
 		admin.setAuthorities(arrayRoles);
 		
